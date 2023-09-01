@@ -1,2 +1,4 @@
-# cgs
-Classifier-Guided Sampling evolutionary algorithm
+# Classifier-Guided Sampling
+Classifier-Guided Sampling (CGS) is type of evolutionary algorithm for performing search and optimization over a set of discrete design variables in the face of one or more objective functions. CGS reduces the evaluation count by using a Bayesian network classifier to filter out non-promising candidate designs, prior to evaluation, based on their posterior probabilities. The structure of the Bayesian network may be set manually, or CGS can optionally be configured to learn the network on the fly. 
+
+This release includes a Visual Studio 2022 solution for building and running CGS. In the Visual Studio solution, there is a Demo project that shows how to use CGS to solve a single-objective and a multi-objective optimization problem. 
